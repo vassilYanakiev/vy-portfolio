@@ -24,7 +24,7 @@ export const aboutData = {
     'I have been persistantly focused in building a solid base of front-end programming skills through dedicated courses, masterclasses and some own projects.',
   paragraphThree:
     'Currently I am highly motivated and looking forward building on top of that as part of a team of professionls where I could develop, contribute and invest my motivation',
-  resume: 'https://1drv.ms/b/s!AjZAJ8dl5aoY1W5iQNDYDJVKlY5c?e=PZ7gyg', // if no resume, the button will not show up
+  resume: '../mock/cv.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
