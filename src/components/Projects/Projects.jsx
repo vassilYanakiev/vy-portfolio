@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import weboptPdf from './SPA_webopt.pdf';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -53,7 +54,9 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url === 'SPA_webopt' ? weboptPdf : url || '#!'}
+
+                        // href = {weboptPdf}
                       >
                         See Live
                       </a>
@@ -81,7 +84,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={url === 'SPA_webopt' ? weboptPdf : url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"

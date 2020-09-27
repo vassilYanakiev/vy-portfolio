@@ -31,6 +31,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'logo-webopt.png',
+    title: 'SPA WebOpt',
+    info: 'SPA for RNO optimization purposes. DT analysis, helpful tools and geo data',
+    info2: 'LAMP, Javascript, Google Maps API, GCP',
+    url: 'SPA_webopt',
+  },
+  {
+    id: nanoid(),
     img: 'logo-infinity-scroll.png',
     title: 'Infinity scroll',
     info: 'This project applies infinite scroll to load images from Unsplash API.',
